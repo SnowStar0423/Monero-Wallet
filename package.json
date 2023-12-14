@@ -1,0 +1,16 @@
+{
+  "name": "monero_wallet",
+  "version": "1.0.0",
+  "description": "A Monero Wallet App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "SnowStar",
+  "license": "ISC",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.4.3",
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0"
+  }
+}
